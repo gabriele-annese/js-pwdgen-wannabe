@@ -12,3 +12,9 @@ h3 {
 #pssw {
     color: greenyellow;
 }
+
+.password {
+    border: 2px solid blue;
+    padding: 10px;
+    border-radius: 20px;
+}
