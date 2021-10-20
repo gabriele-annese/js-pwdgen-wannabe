@@ -4,7 +4,12 @@ const nome = prompt("Come ti chiami?");
 const cognome = prompt("Quale é il tuo cognome?");
 // chiedere
 const colore = prompt("Quale é il tuo colore preferito?");
+
+// BONUS
+// creare generatore random numeri da 1 a 100 da aggiungere a password
+const random = Math.round(Math.random () * 100);
+
 // crare password
-const password = nome + cognome + colore;
+const password = nome + cognome + colore + random;
 // stampare su html
-document.getElementById('pssw').innerHTML = `${password}21 `; 
+document.getElementById('pssw').innerHTML = password ; 
