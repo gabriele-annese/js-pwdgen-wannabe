@@ -1,20 +1,42 @@
+/* General */
+
 body{
     background-color: #000;
+    height: 100vh;
 }
 h1 {
-    color: blueviolet;
+    color: #7400b8;
 }
 
 h3 {
-    color: red;
+    color: #e63946;
 }
 
-#pssw {
-    color: greenyellow;
+/* Utility */
+.mrg-t {
+    margin-top: 200px;
 }
 
+.btn-stile{
+    border-radius: 15px;
+    background-color: #ff7b00;
+    color: #fff;
+}
+
+.btn-stile:hover{
+    background-color: #7400b8;
+    color: #fff;
+}
+
+/* main */
 .password {
-    border: 2px solid blue;
+    color: #80ffdb;
+    border: 2px solid #ff7b00;
     padding: 10px;
     border-radius: 20px;
+}
+
+/* footer */
+.copyright{
+    color: #deaaff;
 }

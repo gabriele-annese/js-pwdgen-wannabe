@@ -13,3 +13,21 @@ const random = Math.round(Math.random () * 100);
 const password = nome + cognome + colore + random;
 // stampare su html
 document.getElementById('pssw').innerHTML = password ; 
+
+
+// BONUS BOTTONE GENERATORE
+function generaPassword() {
+// chiedere sport
+const nome = prompt("Che sport ti piace?");
+// chiedere cibo
+const cognome = prompt("Cibo preferito?");
+// chiedere cittá
+const colore = prompt("Cittá preferita?");
+
+// generatore random
+const random = Math.round(Math.random () * 100);
+// crare password
+const password = nome + cognome + colore + random;
+// stampare su html
+document.getElementById('casuale').innerHTML = password ; 
+}
